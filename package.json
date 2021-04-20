@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Abraklion/gulp-html-scss.git"
+    "url": "git+https://github.com/Abraklion/gulp-pug-scss.git"
   },
   "keywords": [
     "Сборка GULP",
@@ -18,9 +18,9 @@
   "author": "Nikolay Kuznetsov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Abraklion/gulp-html-scss/issues"
+    "url": "https://github.com/Abraklion/gulp-pug-scss/issues"
   },
-  "homepage": "https://github.com/Abraklion/gulp-html-scss#readme",
+  "homepage": "https://github.com/Abraklion/gulp-pug-scss#readme",
   "devDependencies": {
     "autoprefixer": "^9.8.6",
     "browser-sync": "^2.26.14",
