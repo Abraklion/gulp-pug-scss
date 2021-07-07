@@ -12,10 +12,10 @@ module.exports = function () {
         }
       }))
       .pipe($.gp.htmlBeautify({
-        "indent_size": 4,
+        "indent_size": 2,
         "max_preserve_newlines": 1
       }))
-      .pipe($.gp.if($.config.toggle.fullHtml, $.gp.htmlmin({ collapseWhitespace: true })))
+      .pipe($.gp.if($.config.toggle.minHtml, $.gp.htmlmin({ collapseWhitespace: true })))
       .pipe($.gulp.dest($.config.output.path))
       .pipe($.browserSync.stream());
   });
