@@ -11,4 +11,5 @@ module.exports = [
   './gulp/tasks/fonts',
   './gulp/tasks/images',
   './gulp/tasks/sprite',
+  './gulp/tasks/copy',
 ];
