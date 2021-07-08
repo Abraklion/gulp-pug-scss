@@ -10,11 +10,13 @@ module.exports = function () {
       .pipe($.gp.rigger())
       .pipe($.gp.if($.config.toggle.fullJs, $.gulp.dest($.config.output.pathJs)))
 
+      .pipe($.gp.sourcemaps.init())
       .pipe($.gp.uglify())
       .pipe($.gp.rename({
         suffix: ".min",
         extname: ".js"
       }))
+      .pipe($.gp.sourcemaps.write(''))
       .pipe($.gulp.dest($.config.output.pathJs))
       .pipe($.browserSync.stream());
   });

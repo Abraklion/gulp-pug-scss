@@ -3,7 +3,7 @@
 module.exports = [
   './gulp/tasks/pug',
   './gulp/tasks/styles',
-  './gulp/tasks/scripts.js',
+  './gulp/tasks/scripts',
   './gulp/tasks/server',
   './gulp/tasks/watcher',
   './gulp/tasks/clean',

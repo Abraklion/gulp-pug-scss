@@ -12,7 +12,7 @@ global.$ = {
     src: require('./gulp/config'),
 
     toggle: {
-      minHtml: true, // true / false
+      minHtml: false, // true / false
       fullCss: false, // true / false
       fullJs: false, // true / false
       resizeImg: false, // true / false
